@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+header{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto 20px auto;
+  background-color: dodgerblue;
+  color:white;
+  font-size: 24px;
+  text-align: center;
+}
+header button {
+  background-color: red;
+  height: 30px;
+  position: absolute;
+  right: 25px;
+}
+header button:hover{
+  background-color: #991919;
+  transition: 0.5s;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto 20px auto;
+}
+h2{
+  text-align: center;
+}
+table{
+  width: 100%;
+  max-width: 850px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th, td{
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+th {
+  background-color: dodgerblue;
+  color: white;
+}
+th:hover{
+  background-color: #1479d1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+button {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #1479d1;
+}
