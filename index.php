@@ -137,10 +137,3 @@ require_once "conexao.php";
   </script>
 </body>
 </html>
-
-<!-- deve acessar o banco de dados MySQL para mostrar os dados, que possui: -->
-<!-- Barra de pesquisa para pesquisar por um aluno -->
-<!-- Código do aluno, nome, e notas de 1 a 4  -->
-<!-- deve possuir calculo de média de nota de cada aluno -->
-<!-- Irá possuir um botão para adicionar alunos -->
-<!-- Implementar um botão de deletar aluno posteriormente -->
